@@ -1,3 +1,9 @@
+[![GitHub stars](https://img.shields.io/github/stars/jkerai1/ScrapWebsiteForTopKeywords?style=flat-square)](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jkerai1/ScrapWebsiteForTopKeywords?style=flat-square)](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/network)
+[![GitHub issues](https://img.shields.io/github/issues/jkerai1/ScrapWebsiteForTopKeywords?style=flat-square)](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/issues)
+[![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/ScrapWebsiteForTopKeywords?style=flat-square)](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/pulls)
+
+
 # Scrape Websites For Top Keywords  
 
 Scrape website for top keywords then use word association to generate new keywords.
@@ -29,5 +35,4 @@ As you can see example.com does not reach 30 words but results are still returne
 # See More  
 
 https://github.com/jkerai1/AzurePasswordProtectionCalculator  
-
 https://learn.microsoft.com/en-us/entra/identity/authentication/concept-password-ban-bad

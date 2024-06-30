@@ -1,4 +1,3 @@
-[19:53] Jay Kerai
 import requests
 from bs4 import BeautifulSoup
 from collections import Counter

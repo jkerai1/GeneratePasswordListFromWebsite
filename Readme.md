@@ -17,7 +17,8 @@ An Output txt file is created in the same directory with as a script with the ke
 
 As you can see example.com does not reach 30 words but results are still returned:    
 
-![image](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/assets/55988027/477f00b0-7d7f-4c05-879c-3888ead313f4)
+
+![344489036-477f00b0-7d7f-4c05-879c-3888ead313f4](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/assets/55988027/c9c9f1b6-f888-469e-bee5-5ca13f5140f5)
 
 
 ![image](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/assets/55988027/76a92e9b-41fd-478d-94c0-7815284a37f9)

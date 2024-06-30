@@ -1,8 +1,17 @@
 # Scrape Websites For Top Keywords  
 
-Scrape website for top keywords. The intention of this project will be to scrape websites for keywords for usage in banned password lists.  
+Scrape website for top keywords then use word association to generate new keywords.
+
+The intention of this project will be to scrape websites for keywords for usage in banned password lists however this could have other uses.
+
+Requirements: pip install scipy==1.12 
+
+Google's Word Vectors: https://drive.usercontent.google.com/download?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download&confirm=t&uuid=7b93067e-638f-45f2-9f6c-61db0e0f77b7  
+
+Model must be in path './model/'  
 
 An Output txt file is created in the same directory with as a script with the keywords.  
+
 
 # Example usage
 

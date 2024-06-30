@@ -23,8 +23,7 @@ def scrape_and_count_words(url, num_words=20):
  
     text = ' '.join([p.get_text() for p in soup.find_all('p')])
     # Clean and split the text into words
-    words = re.findall(r'\b\w+\b', text.lower())
-    print(type(words))
+    words = re.findall(r'\b\w+\b', text.lower()) #alphanumeric
     words = filter(lambda item: len(item) > 4, words) #Can't use less than length of 4 for banned password list
     whitelist = {'their','right','through','customers'}
     words = filter(lambda item: item not in whitelist, words) #allow words to be removed
@@ -35,19 +34,35 @@ def scrape_and_count_words(url, num_words=20):
     # Get the most common words
     common_words = word_counts.most_common(num_words)
  
-    return common_words,words
+    return common_words
  
 # URL of the website to scrape
-url = 'https://www.example.com'
+url = 'https://example.co.uk'
 #TODO: Add Subdomain enumeration Capabiltiy
  
 # Number of most frequent words to return
-num_words = 20
+num_words = 50
 # Scrape the website and get the most frequent words
-most_frequent_words,words = scrape_and_count_words(url, num_words)
+most_frequent_words = scrape_and_count_words(url, num_words)
  
 # Print the result
 print("list of top " + str(num_words) + " words from " + str(url))
 print('\n'.join('{}: {}'.format(*k) for k in enumerate(most_frequent_words)))
+#print raw list
+print()
+print("Raw Normalized list \n")
 for i in most_frequent_words:
-    print(i[0])
+    temp = i[0].lower()
+    temp = temp.replace("0", "o")
+    temp = temp.replace("1","l")
+    temp = temp.replace("$","s")
+    temp = temp.replace("@","a")
+    #Provided by synacktiv.com https://www.synacktiv.com/publications/entra-id-banned-password-lists-password-spraying-optimizations-and-defenses
+    temp = temp.replace("5", "s")
+    temp = temp.replace("|","l")
+    #temp = temp.replace("i","l")
+    temp = temp.replace("2","z")
+    temp = temp.replace("3","e")
+    temp = temp.replace("!","l")
+    print(temp)
+ 

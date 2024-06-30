@@ -15,6 +15,8 @@ An Output txt file is created in the same directory with as a script with the ke
 
 # Example usage
 
+As you can see example.com does not reach 30 words but results are still returned:    
+
 ![image](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/assets/55988027/477f00b0-7d7f-4c05-879c-3888ead313f4)
 
 

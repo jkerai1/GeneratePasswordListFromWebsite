@@ -1,6 +1,8 @@
 # Scrape Websites For Top Keywords  
 
-Scrape website for top keywords. The intention of this project will be to scrape websites for keywords for usage in banned password lists.
+Scrape website for top keywords. The intention of this project will be to scrape websites for keywords for usage in banned password lists.  
+
+An Output txt file is created in the same directory with as a script with the keywords.  
 
 # Example usage
 

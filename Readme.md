@@ -23,4 +23,6 @@ An Output txt file is created in the same directory with as a script with the ke
 
 # See More  
 
-https://github.com/jkerai1/AzurePasswordProtectionCalculator
+https://github.com/jkerai1/AzurePasswordProtectionCalculator  
+
+https://learn.microsoft.com/en-us/entra/identity/authentication/concept-password-ban-bad

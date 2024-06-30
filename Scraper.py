@@ -77,13 +77,12 @@ for url in urlslist:
     for i in most_frequent_words:
         local_word_list = [] #build list for current word and associated word
         related_words = get_related_words(i[0].lower())
-       
-        for j in related_words:
-            if (not '_' in j) and (j.lower() not in local_word_list) and (len(j) > 3) and j.lower() != "word not in vocabulary" and j!= i: #skip words less than 3 chars, already in the list and results with underscore
-                local_word_list.append(normalize_word(j))
- 
         local_word_list.append(normalize_word(i[0]) #Finally add the word itself
- 
+                               
+        for j in related_words:
+            if (not '_' in j) and (j.lower() not in local_word_list) and (len(j) > 3) and j.lower() != "word not in vocabulary": #skip words less than 3 chars, already in the list and results with underscore
+                local_word_list.append(normalize_word(j))
+
         with open(filename, 'a',newline='') as file:
             try:
                 for k in local_word_list:

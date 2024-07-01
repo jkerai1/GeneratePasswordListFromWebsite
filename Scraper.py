@@ -11,7 +11,8 @@ urlslist =['https://example.com','https://google.com']
 num_words = 30
  
 #Get Model for Association
-def get_related_words(word, top_n=5): #adjust n for amount of related words to return. #TODO, ARG Parse this.
+def get_related_words(word, top_n=5): #adjust n for amount of related words to return for every word in num_words. 
+    #TODO, ARG Parse this.
     from gensim.models import KeyedVectors
     model = KeyedVectors.load_word2vec_format('./model/GoogleNews-vectors-negative300.bin', binary=True) # https://drive.usercontent.google.com/download?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download&confirm=t&uuid=7b93067e-638f-45f2-9f6c-61db0e0f77b7
     try:

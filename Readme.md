@@ -4,7 +4,7 @@
 [![GitHub pulls](https://img.shields.io/github/issues-pr/jkerai1/ScrapWebsiteForTopKeywords?style=flat-square)](https://github.com/jkerai1/ScrapWebsiteForTopKeywords/pulls)
 
 
-# Scrape Websites For Top Keywords  
+# GeneratePasswordListFromWebsite (Scrape Websites For Top Keywords) 
 
 Scrape website for top keywords then use word association to generate new keywords. Finally normalize the result.
 

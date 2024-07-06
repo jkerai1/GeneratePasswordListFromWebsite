@@ -31,7 +31,7 @@ Google's Word Vectors Model : https://drive.usercontent.google.com/download?id=0
 Model must be in path './model/'  
 
 # Example usage
-After configuring the URLs and downloading the model for the word2vec, run the file WebPageScraper.py  
+After configuring the URLs and downloading the model for the word2vec, run the file **WebPageScraper.py**  
 
 As you can see example.com does not reach 30 words but results are still returned:    
 

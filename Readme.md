@@ -26,7 +26,7 @@ pip install scipy==1.12
 pip install gensim  
 pip install BeautifulSoup
 ```
-Google's Word Vectors Model : https://drive.usercontent.google.com/download?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download&confirm=t&uuid=7b93067e-638f-45f2-9f6c-61db0e0f77b7  
+[Google's Word Vectors Model](https://drive.usercontent.google.com/download?id=0B7XkCwpI5KDYNlNUTTlSS21pQmM&export=download&confirm=t&uuid=7b93067e-638f-45f2-9f6c-61db0e0f77b7)    
 
 Model must be in path './model/'  
 
